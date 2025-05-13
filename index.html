@@ -3,61 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
 </head>
 <body>
 
-    <div class="header">
-      <h1>My Website</h1>
-      <p>Resize the browser window to see the effect.</p>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">La Voz del Campus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Deportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Espectaculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Policiales</a>
+                        </li>
+                    </ul>
+                </div>
+          </div> 
+    </nav>
+
+
+    <div class="content-wrapper">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">CHOQUE EN PANAMERICANA</h2>
+                            <h5 class="card-subtitle mb-2 text-muted">Buenos Aires - 11 de mayo de 2025</h5>
+                            <img width="60%" src="./imgs/imagenpolicial.webp" alt="Imagen del choque en Panamericana">
+                            <p class="card-text text-muted">Imagen de panamericana</p>
+                            <p class="card-text">Un choque entre dos autos y una moto provocó este miércoles por la mañana un verdadero caos en el tránsito en la intersección de la autopista Panamericana y la avenida General Paz, justo en plena hora pico y en la previa del fin de semana largo. El incidente generó importantes demoras en ambos sentidos y la intervención de personal de seguridad vial y servicios de emergencia.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">¡HISTÓRICO EN EL VATICANO! MIRTHA LEGRAND CONOCIÓ AL 9NO PAPA TRAS SU FIESTA DE 150</h2>
+                            <h5 class="card-subtitle mb-2 text-muted">Buenos Aires - 12 de mayo de 2025</h5>
+                             <img width="60%" src="./imgs/mirtha.jpg" alt="Mirtha Legrand">
+                            <p class="card-text text-muted">Mirtha en sus tiempos...</p>
+                            <p class="card-text">Después de deslumbrar al mundo con la mega fiesta de sus 150 años, la Chiqui imparable volvió a sorprender. Directo desde los festejos, tomó un vuelo privado rumbo a Roma para una reunión secreta en el Vaticano con el mismísimo Nuevo Papa. ¿De qué hablaron? Los rumores van desde secretos de longevidad hasta el futuro de la televisión mundial. Una cumbre histórica que solo Mirtha Legrand, con su eterna vigencia, podía protagonizar en este año 2025.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">¡BOMBA MUNDIAL! ANCELOTTI A BOCA, ¡CHAU BRASIL! ACUERDO CERRADO EN UNA NEGOCIACIÓN RELÁMPAGO</h2>
+                            <h5 class="card-subtitle mb-2 text-muted">Buenos Aires - 12 de mayo de 2025</h5>
+                             <img width="60%" src="./imgs/ancelotti.jpg" alt="Carlo Ancelotti">
+                            <p class="card-text text-muted">Ancelotti a boca.</p>
+                            <p class="card-text">En una noticia que paraliza al mundo del fútbol y genera un terremoto de dimensiones incalculables, fuentes de altísima credibilidad, que pidieron absoluto anonimato, confirmaron a este medio lo impensado: Carlo Ancelotti, sí, el multicampeón entrenador italiano actualmente en el Real Madrid, ¡es el nuevo director técnico de Boca Juniors! La operación, manejada bajo el más estricto secreto durante las últimas 48 horas, se habría sellado esta mañana en una reunión cumbre con la dirigencia Xeneize. Los detalles son escasos, pero se habla de un contrato multimillonario y un proyecto deportivo "irresistible" que sedujo a "Carletto" para dar este giro radical en su carrera, dejando al "Canarinha" plantado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Últimas Noticias</h2>
+                            <ul class="list-group list-group-flush">
+                                <a href="#" class="list-group-item list-group-item-action">Choque en Panamericana</a>
+                                <a href="#" class="list-group-item list-group-item-action">Mirtha Legrand y el Papa</a>
+                                <a href="#" class="list-group-item list-group-item-action">Ancelotti a Boca: La noticia que sacude el fútbol</a>
+                                <a href="#" class="list-group-item list-group-item-action">Política: Novedades en el Congreso</a>
+                                <a href="#" class="list-group-item list-group-item-action">Economía: Índice de inflación del mes</a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Más Leídas - Sección Policiales</h3>
+                            <ul class="list-group list-group-flush">
+                                <a href="#" class="list-group-item list-group-item-action">Misterio en la Mansión Abandonada: ¿Quién era la víctima?</a>
+                                <a href="#" class="list-group-item list-group-item-action">Persecución a Alta Velocidad Termina en Espectacular Choque</a>
+                                <a href="#" class="list-group-item list-group-item-action">Hallazgo Macabro en el Parque de la Ciudad</a>
+                                <a href="#" class="list-group-item list-group-item-action">Robo a Banco Deja Millonario Botín y un Enigma</a>
+                                <a href="#" class="list-group-item list-group-item-action">Vecinos Alarmados por Extraños Ruidos en la Noche</a>
+                                <a href="#" class="list-group-item list-group-item-action">Detienen a Sospechoso Clave en Caso Sin Resolver</a>
+                                <a href="#" class="list-group-item list-group-item-action">La Desaparición que Conmociona a la Comunidad</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="topnav">
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#" style="float:right">Link</a>
+
+    <div class="mt-auto p-4 bg-light text-center"> <div class="d-flex justify-content-center mb-2">
+            <a href="#" class="me-3 text-dark" style="font-size: 1.5rem;"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="me-3 text-dark" style="font-size: 1.5rem;"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="me-3 text-dark" style="font-size: 1.5rem;"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-dark" style="font-size: 1.5rem;"><i class="bi bi-facebook"></i></a>
+        </div>
+        <p class="mb-0">© 2025 La Voz del Campus. Todos los derechos reservados.</p>
     </div>
-    
-    <div class="row">
-      <div class="leftcolumn">
-        <div class="card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        </div>
-        <div class="card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        </div>
-      </div>
-      <div class="rightcolumn">
-        <div class="card">
-          <h2>About Me</h2>
-          <div class="fakeimg" style="height:100px;">Image</div>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        </div>
-        <div class="card">
-          <h3>Popular Post</h3>
-          <div class="fakeimg"><p>Image</p></div>
-          <div class="fakeimg"><p>Image</p></div>
-          <div class="fakeimg"><p>Image</p></div>
-        </div>
-        <div class="card">
-          <h3>Follow Me</h3>
-          <p>Some text..</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="footer">
-      <h2>Footer</h2>
-    </div>
-    
-    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script></body>
 </html>

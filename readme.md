@@ -24,6 +24,4 @@ Enviar el link de Github Pages de este repositorio como respuesta a la problemá
 
 ENTREGA
 
-
-
- El resultado deberá ser subido a un repositorio nuevo en Github.
+El resultado deberá ser subido a un repositorio nuevo en Github.
